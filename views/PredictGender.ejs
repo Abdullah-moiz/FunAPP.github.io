@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My API's</title>
+    <link rel="stylesheet" href="/css/PredictGender.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+</head>
+<body>
+    <div id="main_container">
+        <%- include('./partials/navbar.ejs') %>
+        <div id="info_container">
+            <h1>Are you looking to have some Fun!</h1>
+            <h2>We are here to entertain You</h2>
+            <div id="data">
+                <h2>Predict the Gender of a person based on their name using Genderize APi</h2>
+                <h3 style="color: #E65C4F;">Used API reference <span>https://api.genderize.io?name=luc</span></h3> 
+                <div id="get_name">
+                    <form action="/getgender" method="post" id="my_age_form">
+                        <input spellcheck="true" id="search_it" type="search" placeholder="Enter Name" name="name">
+                        <button class="btn" type="submit">Find Gender</button>
+                    </form>
+                </div>
+                <% if(data !=  null){ %>
+                <diV id="display_age">
+                    <% if(data.gender != null){ %>
+                    <h2><%=data.name%> Gender is : <span style="color: black;"><%=data.gender%></span></h2>
+                    <h2>Probability is <%=data.probability%></h2>
+                    <%}else{%>
+                        <h2 style="color: #31364c;">Please Enter a valid Name </h2>
+                        <p style="color: E65C4F;">Alert : avoid spaces, special character and number for valid name</p>
+                    <%}%>
+                </diV>
+                <% } %>
+            </div>
+        </div>
+
+        <%- include('./partials/footer.ejs') %>
+    </div>
+</body>
+<script src="/js/index.js"></script>
+</html>

@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@500&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cormorant SC', serif;
+    background-color: var(--main);
+    color: var(--sec);
+    text-align: center;
+}
+
+:root {
+    --main:white;
+    --sec: #31364c;
+    --orange : #FE9870;
+    --blue  : #2E424D;
+}
+#main_container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+#content
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: var(--blue);
+    color: var(--orange);
+}
+#content h1{
+    margin: 10px;
+    padding: 5px;
+    font-size: 60px;
+}
+#content h3{
+    margin: 10px;
+    padding: 5px;
+    font-size: x-large;
+}
+.btnx {
+    background-color: transparent;
+    color: white;
+    display: flex;
+    border: 2px solid #FE9870;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin: 5px;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: large;
+}
+.btn:hover{
+    transition: 0.5s all;
+    background-color: var(--orange);
+    border: none;
+    color: var(--blue);
+}

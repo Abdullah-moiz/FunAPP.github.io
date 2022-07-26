@@ -1,0 +1,152 @@
+@media only screen and (max-width: 700px) and (min-width: 320px) 
+{
+    /* ^ main page css */
+    #logo a {
+        color: white;
+        text-decoration: none;
+        font-size: large;
+        font-weight: bold;
+    }
+    #navbar ul li {
+        list-style: none;
+        margin: 0px;
+        padding: 5px;
+    }
+
+    #navbar ul li a {
+        font-size: small;
+        font-weight: 400;
+        text-decoration: none;
+        color: white;
+    }
+    #content h1 {
+        margin: 10px;
+        padding: 5px;
+        font-size: 30px;
+    }
+    #content h3 {
+        margin: 10px;
+        padding: 5px;
+        font-size: large;
+    }
+    .btn {
+        background-color: transparent;
+        color: #31364c;
+        display: flex;
+        border: 2px solid #FE9870;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 5px;
+        margin: 5px;
+        width: 150;
+        height: 50px;
+        border-radius: 10px;
+        cursor: pointer;
+        font-size: small;
+    }
+    .btnx {
+        background-color: transparent;
+        color: white;
+        display: flex;
+        border: 2px solid #FE9870;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 5px;
+        margin: 5px;
+        width: 150;
+        height: 50px;
+        border-radius: 10px;
+        cursor: pointer;
+        font-size: small;
+    }
+    #footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        background-color: var(--sec);
+        color: var(--orange);
+        font-size: small;
+        font-weight: bolder;
+    }
+    /* ^ main page css END */
+    /* ~ FIND AGE CSS */
+    #info_container h1 {
+        margin: 10px;
+        font-size: 22px;
+    }
+    #info_container h2 {
+        margin: 10px;
+        font-size: 15px;
+    }
+    #data {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 10px;
+        width: 80%;
+        height: 80%;
+        box-shadow: 0px 15px 20px rgb(0 0 0 / 25%);
+        padding: 10px;
+        border-radius: 10px;
+    }
+    #data h3{
+        font-size: 15px;
+    }
+    /* ~ FIND AGE CSS enDS */
+}
+@media only screen and (max-width: 400px) and (min-width: 320px) 
+{
+    #navbar ul li a {
+        font-size: 10px;
+        font-weight: 400;
+        text-decoration: none;
+        color: white;
+    }
+    .btnx {
+        background-color: transparent;
+        color: white;
+        display: flex;
+        border: 2px solid #FE9870;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 5px;
+        margin: 5px;
+        width: 150;
+        height: 50px;
+        border-radius: 10px;
+        cursor: pointer;
+        font-size: small;
+    }
+    #content h1 {
+        margin: 10px;
+        padding: 5px;
+        font-size: 20px;
+    }
+    #content h3 {
+        margin: 10px;
+        padding: 5px;
+        font-size: small;
+    }
+    #search_it {
+        width: 200px;
+        height: 50px;
+        outline: none;
+        padding: 5px;
+        margin: 10px;
+        border: 2px solid #FE9870;
+        color: #FE9870;
+        background: transparent;
+        font-size: large;
+        border-radius: 10px;
+        cursor: text;
+    }
+
+}
