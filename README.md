@@ -2,11 +2,11 @@
 FunApp is builded as a beginners API project . To fetch open-source API's and play with them
 
 # how to use 
-1 : Download VS code
-2 : open project in VS code 
-3 : CTRL+ `` (backticks)
-4 : nodemon ./app.js OR node ./app.js
-4 :  server will be started press CTRL +  mouse right click to open website in your default browser
+# 1 : Download VS code
+# 2 : open project in VS code 
+# 3 : CTRL+ `` (backticks)
+# 4 : nodemon ./app.js OR node ./app.js
+# 5 :  server will be started press CTRL +  mouse right click to open website in your default browser
 
 
 ![findAge](https://user-images.githubusercontent.com/90745903/181600032-adcb8bfe-4aec-4971-b645-d16f63309dde.png)
