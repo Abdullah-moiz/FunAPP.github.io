@@ -1,11 +1,17 @@
 # FunAPP.github.io
+FunApp is builded as a beginners API project . To fetch open-source API's and play with them
 
-This FUN APP is created using EJS , NODE JS and Open source API's
+# how to use 
+1 : Download VS code
+2 : open project in VS code 
+3 : CTRL+ `` (backticks)
+4 : nodemon ./app.js OR node ./app.js
+4 :  server will be started press CTRL +  mouse right click to open website in your default browser
 
-#how to start server
-Download code Open in Vs code type command
-node ./app.js
-nodemon ./app.js
 
-In Terminal you will get a link of server (server is running at localhost...)
-use CTRL + mouse right click it will redirect you to default browser where FUN app is running at you localhost
+![findAge](https://user-images.githubusercontent.com/90745903/181600032-adcb8bfe-4aec-4971-b645-d16f63309dde.png)
+![gender'](https://user-images.githubusercontent.com/90745903/181600042-1df46b9d-c24e-4d5d-996c-01a05d69d289.png)
+![quoytes](https://user-images.githubusercontent.com/90745903/181600047-dffe8e95-d6ab-4817-b55f-2757c46c8101.png)
+![main_page](https://user-images.githubusercontent.com/90745903/181600050-2be0132f-fb41-4185-a6de-5dc9edb324bc.png)
+
+# happy coding . 
